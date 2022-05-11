@@ -1,0 +1,347 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US"><voice name="en-US-ChristopherNeural"><prosody rate="0%" pitch="0%">
+
+<p>Now we will focus on the Gaussian Mixture Models 
+, <break/> 
+, <break/>  </p>
+
+
+
+
+
+
+
+<p><s>What makes GMMs a better candidate than K-means?
+</s> 
+, <break/> 
+, <break/> 
+
+
+
+
+
+
+
+<break/>we need in advance to understand two concepts, <break/>Gaussian Distribution (GD)
+, <break/> Expectation-Maximization (EM)
+
+
+
+
+
+
+
+
+, <break/> Gaussian Mixture Models (GMMs) is one of the most famous clustering algorithms, <break/> It uses the Gaussian, <break/> which is a method for plotting data, <break/> 
+, <break/>
+
+
+
+
+
+
+
+Motivation of GMMs , <break/> 
+, <break/> 
+, <break/> 
+, <break/> 
+
+
+
+
+
+
+
+
+,<break/>However, <break/> GMMs differs from the K-mean algorithm because it considers variance. , <break/>
+
+
+
+
+
+
+
+
+
+, <break/> 
+GMMs empleyed in many Usecases, <break/>  e.g., <break/>
+Clustering and density estimation in physics, <break/>
+
+
+
+
+
+
+
+
+Theoretical background and assumptions, <break/> 
+, <break/> 
+, <break/> 
+
+
+
+
+
+
+
+
+
+, <break/> 
+Before diving into Gaussian Mixture Models, let us look at the "Gaussian Distribution“ and Expectation-Maximization (EM)
+, <break/> 
+
+
+
+
+
+
+
+
+
+
+
+Gaussian Distribution, <break/> 
+It is also known as Normal Distribution.
+, <break/> 
+
+, <break/>
+The curve's shape will be a 2d or 3D bell curve as displayed below<break/> 
+
+
+
+
+
+
+
+
+
+
+
+For the Gaussian distribution's probability density function<break/>  we distinguish the following cases: Mean (μ),variance (σ2),<break/> 
+<break/>
+<break/>
+
+
+
+
+
+
+
+
+
+
+Gaussian Distribution, 
+<break/>
+In a d-dimensional space (multivariate Gaussian model)
+<break/>
+The method result will be a combination or mixture of k Gaussian distributions<break/> if the input is a dataset of d features<break/>
+<break/>
+<break/>
+
+
+
+
+
+
+
+
+
+, <break/>
+we are coming now to the Expectation-Maximization Algorithm (EM), <break/>
+an iterative method to find the suitable model parameters by accomplishing maximum likelihood estimation, <break/>, <break/>
+main steps are , <break/>  Expectation    (E)-step , <break/> Maximization  (M)-step, <break/>
+
+
+
+
+
+
+
+
+
+
+
+, <break/>
+Expectation-Maximization (EM) in Gaussian Mixture Models (GMMs)
+, <break/>
+After understanding the EM algorithm, let us use it in GMMs., <break/>
+To compute the GMMs, <break/> we need to find the values of the variables μ, Σ, and Π., <break/>
+
+
+
+
+
+
+
+
+
+
+
+this slide and the second one show us the calculations and the equations of Expectation-Maximization (EM) in Gaussian Mixture Models (GMMs) , <break/>
+, <break/>
+, <break/>
+
+
+
+
+
+
+
+
+, <break/>
+, <break/>
+, <break/>
+, <break/>
+
+
+
+
+
+
+
+
+here An Illustration of Expectation Maximization Algorithm (EM), <break/>, <break/>
+
+
+
+
+
+
+
+, <break/>
+, <break/>
+, <break/>
+, <break/>
+
+
+
+
+
+
+
+
+
+
+
+the GMMs METHODOLOGY and weakness in k-means, which solved in GMMS , <break/> e.g: If data points belong to the first cluster with a certain probability and to the second cluster with another probability, <break/>
+, <break/>
+
+
+
+
+
+
+
+
+
+
+
+, <break/>
+, <break/>
+, <break/>
+, <break/>
+
+
+
+
+
+
+
+Exceptions and extensions
+, <break/>  
+, <break/>   
+
+
+
+
+
+
+
+
+
+
+this gragh represents  Gaussian Mixture Models (GMMs) VS K-Means, <break/>  , <break/>  
+, <break/>  
+
+
+
+
+
+
+
+
+
+
+, <break/>
+, <break/>
+, <break/>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+GMMS Implementation Part contains four parts, <break/> 
+
+
+
+
+
+
+
+
+
+
+
+
+installing the required python libraries 
+, <break/> , <break/> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data cleaning steps and required data preparation
+, <break/> 
+
+
+
+
+
+
+
+
+
+stage 3 contains , <break/>  Reading the Dataset, <break/>Using Dependent variables, <break/> Test for Normal Distribution
+, <break/> Training the GMMs model on the dataset, <break/> E- step, <break/>     M-step  , <break/>
+at end Visualising the clusters
+
+
+
+
+
+
+
+
+
+, <break/>
+last stage in GMMs is Interpreting the results and all output elements.
+
+
+</p>
+
+</prosody></voice></speak>

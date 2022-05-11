@@ -1,0 +1,163 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US"><voice name="en-US-ChristopherNeural"><prosody rate="0%" pitch="0%">
+
+<p>coming now to an interesting type of clustering , <break/>  Hierarchical Clustering:, <break/> 
+, <break/> Agglomerative Clustering
+, <break/>  </p>
+
+
+
+
+
+
+<p><s>What are the similarities and differences between it and the K-means?
+
+</s> 
+, <break/> 
+, <break/> 
+
+
+
+
+
+
+
+<break/>Hierarchical Clustering (HC) or Hierarchical Clustering Analysis (HCA) is a clustering algorithm used in statistical analysis, <break/>  It aims to analyze and plot the studying data and present the clusters in a hierarchy diagram, <break/> 
+
+
+
+
+ <break/>Hierarchical Clustering (HC) consist of two types, <break/>
+, <break/> Agglomerative Clustering  <break/> or called A "bottom-up" method ,<break/> Initially in it, each data point is a cluster of its own, <break/> , <break/>  and the second type is Divisive Clustering, <break/> or called A "top-down" method
+<break/> but initially, all the data points in the dataset belong to one cluster, <break/>, <break/>
+
+
+
+, <break/>
+, <break/>
+, <break/>
+
+
+
+Motivation or Advantages of AHC: , <break/>  Easy to implement , <break/> object ordering , <break/> and informative for the display., <break/>   No need for pre-specify the number of clusters.,<break/> Easy to decide the number of clusters by cutting the Dendrogram at the specific level,<break/> The ability of AHC approach to create smaller clusters , which may uncover similarities in data.,<break/> 
+
+
+
+
+
+Which Fields can be supported?, <break/>   Use cases of Agglomerative HC, <break/> 
+Analyze social network data , <break/> 
+
+
+
+
+, <break/>
+, <break/>
+, <break/>
+
+
+
+
+
+Agglomerative Clustering Algorithm METHODOLOGY: contains three steps, <break/>
+
+<break/><break/>
+
+
+
+
+
+, <break/>this gragh illustrate An examples for Agglomerative Clustering,  
+
+
+
+
+, <break/> 
+, <break/> 
+, <break/> 
+
+
+
+
+Agglomerative Clustering VS k-means   , <break/> 
+, <break/> 
+HC and K-means are both clustering algorithms in the statistical analysis field., <break/> but in HC , <break/>  no need to appoint the number of clusters in advance., <break/> when The determines are based on previous opinions. HC should be used to know the number of clusters., <break/> However, K-Means depends on using the centroid, , <break/> 
+calculating the distances between the data points., <break/> 
+
+
+
+
+
+Moreover, when The demand is high to determine the number of clusters more easily. HC's dendrogram is the right decision., <break/> 
+ It is more enlightening and interpretable., <break/> on another hand in K-means The provided dataset has a particular number of clusters, but they belong to an unknown group.., <break/> Nevertheless, For fast computing , When the provided dataset has a large number of variables.., <break/> ., <break/> 
+
+
+
+
+, <break/> 
+, <break/> 
+, <break/> 
+
+
+
+
+
+
+
+, <break/> , <break/> 
+
+Agglomerative Clustering Implementation Part contains four parts, <break/> <break/> 
+
+
+
+
+
+
+install the required python libraries 
+, <break/> , <break/> 
+
+
+
+
+
+
+
+Data cleaning steps and required data preparation
+, <break/> 
+
+
+
+
+
+
+stage 3 contains , <break/>  Reading the Dataset, <break/>Using Dependent variables, <break/> Using the Dendrogram to find the optimal number of clusters<break/>Training the Hierarchical Clustering model on the dataset
+, <break/>    
+at end Visualising the clusters, <break/>, <break/>
+
+, <break/>
+
+
+
+
+
+, <break/>
+, <break/>
+last stage in HC is Interpreting the results and all output elements regarding Dendrogram.
+, <break/>
+, <break/>
+Thanks for watsching
+, <break/>
+, <break/>
+
+
+
+
+The references are as APA Style  are included in the notebook Colab Theory and app parts and the report able to exported as HTML and PDF file in Latex template, <break/>
+, <break/>
+
+
+
+
+
+</p>
+
+</prosody></voice></speak>

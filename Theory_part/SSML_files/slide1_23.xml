@@ -1,0 +1,260 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US"><voice name="en-US-ChristopherNeural"><prosody rate="0%" pitch="0%">
+
+<p>Welcome to the Applied Statistics For HCI seminar. </p>
+
+<p><s>We focus on following statistical methods</s> 
+<break/>Clustering and Classification, 
+
+
+
+
+
+
+
+<break/>I will present you the following contents about Clustering, <break/> Introduction, <break/> motivation, <break/> Theoretical background and assumptions, <break/> 
+
+
+
+
+
+
+
+INTRODUCTION to The Clustering, <break/> 
+
+
+
+
+
+
+
+
+What are our goals in our life, <break/> 
+
+
+
+
+
+
+
+
+
+The differences between  unSupervised and supervised Learning
+, <break/>
+, <break/>Unsupervised Learning, <break/>deals with unlabeled dataset , <break/> nevertheless, supervise Learning , <break/> deals with labeled dataset.
+
+, <break/>, <break/>, <break/>
+
+
+
+
+
+
+
+
+  Clustering is an unsupervised approach applied on unlabeled datasets.                             
+
+, <break/> such as 
+, <break/>     K-means, <break/>  Gaussian Mixture Models, <break/> and Agglomerative Clustering
+, <break/> 
+, <break/>
+
+
+
+
+
+
+
+
+
+this gragh show us the result of appling K-means on unlabeled dataset
+, <break/> 
+, <break/> 
+, <break/> 
+
+
+
+
+
+
+
+it used to performs the gathering - clustering of unlabeled datasets into groups
+, <break/> 
+, <break/> 
+
+
+
+
+
+
+
+
+Use cases, <break/> 
+e.g. Marketing segmentation
+, <break/> Image segmentation
+, <break/> 
+
+
+
+
+
+, <break/> 
+, <break/> 
+, <break/> 
+
+
+
+
+
+
+
+
+Assumptions include
+, <break/> 
+ number of the Clusters k
+, <break/> 
+initial K-points centroids
+, <break/> 
+
+
+
+
+, <break/> 
+, <break/> 
+, <break/> 
+
+ 
+
+
+
+
+the METHODOLOGY of K-means contain those five steps
+, <break/> starting with Choosing the number of clusters "K".
+
+, <break/> , <break/> , <break/> , 
+
+
+
+
+
+
+
+
+
+and ending with Repeat Steps 3 and 4 continuously until the positions of the centroids are no longer changed.,
+
+<break/> , <break/> 
+ , <break/> 
+
+
+
+
+
+
+
+
+
+
+we can use Elbow Method to find the best number of clusters,
+ <break/> 
+
+
+
+
+
+
+
+,
+ <break/> 
+ ,
+ <break/> 
+ ,
+ <break/> 
+
+ 
+
+
+
+
+
+
+but K-Means have some Disadvantages
+, <break/> 
+like Unable to deal with noisy data and outliers. 
+, <break/> 
+
+
+
+
+
+
+
+
+
+
+,
+ <break/> 
+ ,
+ <break/> 
+ ,
+ <break/> 
+
+
+
+
+
+
+
+
+
+ 
+
+the Implementation mission contains four parts, <break/> 
+
+, <break/> , <break/> 
+
+
+
+
+
+
+
+
+
+install the required python libraries
+, <break/> , <break/> , <break/> 
+
+
+
+
+
+
+
+Data cleaning steps and required data preparation
+, <break/> , <break/> , <break/> 
+
+
+
+
+
+
+
+
+
+
+then Reading the Dataset, <break/>Using Dependent variables, <break/> elbow method to find the optimal number of clusters,
+ <break/> at end Visualising the clusters, <break/> 
+
+
+
+
+
+
+
+
+
+last stage in k-means is Interpreting the results and all output elements.
+
+
+</p>
+
+</prosody></voice></speak>
